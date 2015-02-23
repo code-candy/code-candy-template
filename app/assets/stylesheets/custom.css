@@ -3,6 +3,10 @@
     font-size: 1.2em;
 }
 
-.pager li>a, .pager li>span {
-    font-size: 10px;
+@media only screen and (max-width: 400px) {
+
+    .pager li>a, .pager li>span {
+        font-size: 10px;
+    }
+
 }
