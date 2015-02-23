@@ -7640,3 +7640,311 @@ Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 22:25:53 +1100
 
 
 Started GET "/assets/home-bg.jpg" for ::1 at 2015-02-23 22:25:53 +1100
+
+
+Started GET "/" for ::1 at 2015-02-23 23:02:50 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.7ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (23.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 195ms (Views: 171.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/clean-blog.css?body=1" for ::1 at 2015-02-23 23:02:50 +1100
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-23 23:02:50 +1100
+
+
+Started GET "/assets/custom.css?body=1" for ::1 at 2015-02-23 23:02:50 +1100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:02:50 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:02:50 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:02:50 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:02:50 +1100
+
+
+Started GET "/assets/home-bg.jpg" for ::1 at 2015-02-23 23:02:51 +1100
+
+
+Started GET "/articles/21/edit" for ::1 at 2015-02-23 23:03:00 +1100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 21]]
+  Rendered articles/_form.html.erb (18.0ms)
+  Rendered articles/edit.html.erb within layouts/application (24.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 101ms (Views: 82.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:03:00 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:03:00 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:03:00 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:03:00 +1100
+
+
+Started GET "/articles" for ::1 at 2015-02-23 23:03:05 +1100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:03:05 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:03:05 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:03:05 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:03:05 +1100
+
+
+Started GET "/articles/21/edit" for ::1 at 2015-02-23 23:04:01 +1100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 21]]
+  Rendered articles/_form.html.erb (2.6ms)
+  Rendered articles/edit.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:04:02 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:04:02 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:04:02 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:04:02 +1100
+
+
+Started GET "/assets/custom.css?body=1" for ::1 at 2015-02-23 23:04:04 +1100
+
+
+Started GET "/assets/clean-blog.css?body=1" for ::1 at 2015-02-23 23:04:04 +1100
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-23 23:04:04 +1100
+
+
+Started GET "/articles/21/edit" for ::1 at 2015-02-23 23:04:38 +1100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered articles/_form.html.erb (3.1ms)
+  Rendered articles/edit.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 92.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/clean-blog.css?body=1" for ::1 at 2015-02-23 23:04:39 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:04:39 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:04:39 +1100
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-23 23:04:39 +1100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:04:39 +1100
+
+
+Started GET "/assets/custom.css?body=1" for ::1 at 2015-02-23 23:04:39 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:04:39 +1100
+
+
+Started GET "/articles" for ::1 at 2015-02-23 23:04:45 +1100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:04:45 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:04:45 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:04:45 +1100
+
+
+Started GET "/assets/home-bg.jpg" for ::1 at 2015-02-23 23:04:45 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:04:45 +1100
+
+
+Started GET "/articles/21" for ::1 at 2015-02-23 23:04:48 +1100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 21]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 21]]
+  Rendered comments/_comment.html.erb (3.6ms)
+  Rendered comments/_form.html.erb (3.1ms)
+  Rendered articles/show.html.erb within layouts/application (50.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 110ms (Views: 108.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:04:48 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:04:48 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:04:48 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:04:48 +1100
+
+
+Started GET "/articles/new" for ::1 at 2015-02-23 23:04:50 +1100
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (1.7ms)
+  Rendered articles/new.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:04:50 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:04:50 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:04:50 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:04:50 +1100
+
+
+Started GET "/articles/new" for ::1 at 2015-02-23 23:05:49 +1100
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (1.6ms)
+  Rendered articles/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clean-blog.css?body=1" for ::1 at 2015-02-23 23:05:49 +1100
+
+
+Started GET "/assets/custom.css?body=1" for ::1 at 2015-02-23 23:05:49 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:05:49 +1100
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-02-23 23:05:49 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:05:49 +1100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:05:49 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:05:49 +1100
+
+
+Started GET "/articles" for ::1 at 2015-02-23 23:05:53 +1100
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:05:53 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:05:53 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:05:53 +1100
+
+
+Started GET "/assets/home-bg.jpg" for ::1 at 2015-02-23 23:05:54 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:05:54 +1100
+
+
+Started GET "/articles/new" for ::1 at 2015-02-23 23:05:58 +1100
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (1.5ms)
+  Rendered articles/new.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:05:58 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:05:58 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:05:58 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:05:58 +1100
+
+
+Started GET "/articles" for ::1 at 2015-02-23 23:06:01 +1100
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-02-23 23:06:01 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2015-02-23 23:06:02 +1100
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-02-23 23:06:02 +1100
+
+
+Started GET "/assets/clean-blog.js?body=1" for ::1 at 2015-02-23 23:06:02 +1100
